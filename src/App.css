@@ -1,0 +1,527 @@
+*{
+  background-color: #1C1440;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: #1C1440;
+  color: rgb(249, 249, 250);
+  border-bottom-style: dashed;
+  border-bottom-width: 2px;
+  margin: 0 20px;
+  
+}
+
+nav h1, nav ul {
+  margin-left: 15px;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  color: rgb(255, 247, 247);
+  text-decoration: none;
+}
+.navbar__search {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  width: 25px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+/*.search-input::after {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}*/
+.navbar__login {
+  padding: 5px 30px;
+  background-color: #1C1440; /* Example button color */
+  color: white;
+  border-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-radius: none;
+  cursor: pointer;
+}
+
+.navbar__login:hover {
+  background-color: #1C1440; /* Darker shade on hover */
+}
+.block-container {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background-color: #9dccff56; /* Light grey background */
+  margin: 0 20px;
+  margin-top: 20px;
+  
+}
+.block-container h2{
+  background-color: transparent;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+
+}
+.block-container p{
+    background-color:transparent;
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.content {
+  flex-basis: 30%;
+  background-color: transparent; /* Takes up less than half of the container's width */
+}
+
+.image-container {
+  flex-basis: 25%;
+  background-color:transparent; /* Takes up less than half of the container's width */
+}
+
+.curve-img {
+  width: 100%;
+  border-radius: 20px; /* Adjust this value to control the curve of the corners */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+.start-learning-btn {
+  padding: 10px 20px;
+  background-color: #007bff; /* Example button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 90px;
+}
+
+.start-learning-btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+.blog-list {
+  margin-top: 20px;
+  text-size-adjust: 50%;
+
+
+}
+.blog-list h3 {
+  margin-left: 210px;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.image-boxes {
+  margin-left: 0%;
+  display: flex;
+  justify-content: center; /* Horizontally center the boxes */
+  align-items: center; /* Vertically center the boxes */
+  flex-wrap: wrap;
+
+}
+
+.image-box {
+  margin-right: 20px;
+  margin: 20px; /* Add margin between the boxes */
+  text-align: center;
+  position: relative;
+}
+
+.image-box:last-child {
+  margin-right: 0;
+}
+
+.image-box img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.heading-box {
+  position: absolute; /* Position the heading absolutely */
+  top: 80%; /* Position the heading vertically in the middle */
+  left: 50%; /* Position the heading horizontally in the middle */
+  transform: translate(-50%, -50%); /* Adjust the position to center */
+  background-color: rgba(255, 255, 255, 0.488); /* Add background color with transparency */
+  padding: 10px; /* Add padding to the heading */
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
+.container {
+  
+  display : flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background-color: #9dccff56; /* Light grey background */
+  max-width: 1470px;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+.related-blog {
+  flex: 1 100%; /* Takes full width of the container */
+  background-color: transparent;
+  margin-top: 20px;
+  margin-bottom: -30px;
+  max-width: 1050px;
+
+}
+.related-blog-header {
+  display: flex; /* Display header elements in a row */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Add space between elements */
+  background-color: transparent;
+}
+
+.related-blog-header h2 {
+  margin-bottom: 10px; /* Add margin below heading */
+  background-color: transparent;
+  margin-left: 70px;
+ 
+}
+.see-all{
+ 
+ background-color: transparent;
+ display: inline-block;
+ margin-top: 20px;
+ cursor: pointer;
+ margin-right: 50px;
+}
+.see-all p{
+  background-color: transparent;
+  float: right;
+  font-size: large;
+  color: #3a82ce;
+ 
+}
+.see-all p:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #3e85d1;
+}
+
+.curved-box {
+   /* Each box takes about half of the container width */
+  margin: 0 15px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  align-items: center;
+  max-width: 400px;
+  background-color: white;
+  margin-bottom: 30px;
+ margin-left: 140px;
+   
+ 
+}
+
+.custom-image-boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: white;
+  flex-wrap: wrap;
+ 
+}
+
+.custom-image-box {
+  flex: 1 0 25%; /* Each image box takes 25% of the container width */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.custom-image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content1 {
+  padding: 10px;
+  background-color: white;
+}
+.content1 h2{
+  background-color: white;
+  color: black;
+}
+.user-name{
+  background-color: white;
+  margin-top: 20px;
+}
+.user-name p{
+  background-color: white;
+  color: black;
+}
+.user-name p:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+  background-color: white;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+}
+
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: white;
+}
+.description p{
+  background-color: white;
+  color: black;
+}
+.read-more-btn {
+  
+  border-style: none;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+ 
+}
+
+.read-more-btn:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.views-count {
+  padding: 10px;
+  background-color: white;
+  margin-left: 300px;
+}
+.views-count span{
+  color: black;
+  background-color: white;
+}
+.navigation {
+  display: flex;
+  background-color: transparent;
+  margin-top: 550px;
+  text-align: center; /* Center-align the navigation buttons */
+    padding: 10px 0; /* Padding top and bottom */
+
+}
+
+.nav-button {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  outline: none; /* Removes the outline */
+  transition: background-color 0.3s;
+  margin: 0 6px;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.nav-button:focus {
+  box-shadow: none; /* Ensures no shadow or outline on focus */
+}
+.article-container{
+  display: flex;
+  justify-content: center;
+}
+ 
+.article-heading {
+  flex: 1 100%; /* Takes full width of the container */
+  background-color: transparent;
+  margin-top: 20px;
+  margin: 0 280px;
+
+}
+.article-header {
+  display: flex; /* Display header elements in a row */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Add space between elements */
+  background-color: transparent;
+}
+
+.article-header h2 {
+  margin-bottom: 10px; /* Add margin below heading */
+  background-color: transparent;
+  color: white;
+ 
+}
+.article-see-all{
+ 
+ background-color: transparent;
+ display: inline-block;
+ margin-top: 20px;
+ cursor: pointer;
+}
+.article-see-all p{
+  background-color: transparent;
+  float: right;
+  font-size: large;
+  color: #3e85d1;
+ 
+}
+.article-see-all p:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #3a82ce;
+}
+
+.article-box {
+  /* Each box takes about half of the container width */
+ margin: 0 15px;
+ border-radius: 15px;
+ border: 1px solid #ccc;
+ overflow: hidden;
+ align-items: center;
+ max-width: 300px;
+ background-color: white;
+ margin-bottom: 20px;
+}
+.article-image-boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: white;
+  flex-wrap: wrap;
+ 
+}
+.article-image-box {
+  flex: 1 0 25%; /* Each image box takes 25% of the container width */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.article-image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.article-content{
+    padding: 10px;
+    background-color: white;
+}
+.line1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.design {
+  background-color: white;
+}
+.design p{
+  background-color: white;
+}
+.time {
+  background-color: white;
+}
+
+.time p, .time span {
+  background-color: white;
+  margin-left: 10px; /* Adjust margin as needed */
+}
+.article-content h2{
+  background-color: white;
+  font-size: 20px;
+}
+.article-content p{
+  background-color: white;
+}
+.article-userinfo {
+  display: flex;
+  align-items: center; /* Ensures all items are aligned in the center vertically */
+  justify-content: space-between; /* Spaces items between; pushing some to start and some to end */
+  background-color: white; /* Light background color for the container */
+  padding: 10px; /* Padding around the items */
+  border-radius: 8px; /* Rounded corners for the container */
+}
+
+.article-userinfo img {
+  width: 50px; /* Adjusted size for the profile picture */
+  height: 50px;
+  border-radius: 50%; /* Makes the profile picture circular */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  background-color: white;
+}
+.article-username{
+  background-color: white;
+}
+.article-username p {
+  margin: 0; /* Removes default margin */
+  background-color: white;
+  margin-right: 70px;
+}
+
+.price {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  background-color: white;
+}
+
+.price p {
+  margin: 0; /* Removes default margin */
+  margin-left: 10px; /* Adds space between the price elements */
+  text-decoration:line-through;
+  color: gray;
+  font-style: italic;
+}
+.price h2{
+  margin: 0; /* Removes default margin */
+  margin-left: 10px;
+  color: #4397f1;
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #d29797;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 1rem;
+}
